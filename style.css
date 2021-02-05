@@ -89,3 +89,12 @@ li.icon{
 .mid-section h2, .mid-section p{
     color:#000
 }
+/*FOOTER*/
+footer{
+    background-color: aqua;
+    height: 100px;
+}
+footer ul{
+    display: flex;
+    justify-content: space-between;
+}
