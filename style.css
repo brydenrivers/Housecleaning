@@ -5,6 +5,7 @@
 }
 html{
     font-family: 'Roboto', sans-serif, Arial;
+    scroll-behavior: smooth;
 }
 
 body{
@@ -100,7 +101,7 @@ li.icon{
 /*MAIN SECTION*/
 .main-section{
     height: 90vh;
-    background-image:linear-gradient(to bottom, rgba(98, 101, 116, 0.52), rgba(15, 15, 15, 0.459)), url(pictures/sparkling-clean-kitchen.jpg);
+    background-image:linear-gradient(to bottom, rgba(62, 63, 70, 0.76), rgba(15, 15, 15, 0.5)), url(pictures/sparkling-clean-kitchen.jpg);
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-position: center;
@@ -131,6 +132,7 @@ li.icon{
 .mid-section{
     color: #fff;
     background-color:#f8f1f1;
+    padding-top: 50px;
 }
 .main-content{
     margin: auto;
@@ -144,9 +146,10 @@ li.icon{
     color:#fff
 }
 .mid-section .left{
-    width: 670px;
+    width: 650px;
     background-color:#16c79a;
     border-radius: 5px;
+    margin-bottom: 20px;
 
 
 }
@@ -154,8 +157,9 @@ li.icon{
     padding: 15px;
     border-radius: 5px;
     background-color: #fff;
-    width: 670px;
+    width: 650px;
     color: #212121;
+    margin-bottom: 20px;
 
 }
 .right img{
@@ -190,6 +194,7 @@ li.icon{
 }
 .ul-form input, .ul-form select, .ul-form textarea{
     font-size: 110%;
+    border-radius: 5px;
 
 }
 form .btn{
@@ -236,8 +241,12 @@ blockquote{
 }
 /*FOOTER*/
 footer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
     color: #fff;
     background-color: rgba(0, 0, 0, 0.842);
+    height: 100px;
 }
 footer ul{
     display: flex;
@@ -245,15 +254,49 @@ footer ul{
     list-style: none;
     align-items: center;
     margin-right: 10px;
-    padding: 10px;
+    padding: 0 10px;
 }
 /********/
 /*Media Queries*/
 /********/
-@media only screen and (max-width : 120px) {
+@media only screen and (max-width : 1366px) {
 
-    .main-content{
+    .mid-section .left, .mid-section .right{
+        width: 550px;
+    }
+}
+@media only screen and (max-width : 1200px) {
 
+    .mid-section .left, .mid-section .right{
+        width: 650px;
+    }
+    .main-section div{
+        padding-top: 110px;
 
     }
+    .main-section h1, .main-section p{
+        margin-left: 40px;
+        margin-right: 40px;
+
+    }
+}
+@media only screen and (max-width : 834px){
+    .main-section{
+        height: 80vh;
+    }
+    .main-section div{
+        padding-top: 70px;
+
+    }
+    .main-section h1, .main-section p{
+        font-size: 300%;
+        font-weight: 100;
+    }
+    .main-section p{
+
+        font-size: 110%;
+        font-weight: 300;
+        line-height: 30px;
+
+
 }
