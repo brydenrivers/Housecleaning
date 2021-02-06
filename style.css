@@ -151,6 +151,7 @@ li.icon{
 }
 .right img{
     border-radius: 5px;
+    width: 100%;
 }
 .mid-section h2, .mid-section p{
     color: #212121;
