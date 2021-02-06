@@ -123,6 +123,7 @@ li.icon{
 .main-content{
     margin: auto;
     display:flex;
+    flex-wrap: wrap;
     justify-content: space-evenly;
     width: 80%;
     padding: 50px 20px;
@@ -206,4 +207,18 @@ footer ul{
     align-items: center;
     margin-right: 10px;
     padding: 10px;
+}
+/********/
+/*Media Queries*/
+/********/
+@media screen and (max-width : 1024px) {
+
+    .main-content{
+        margin-left: 10px;
+        margin-right: 10px;
+
+        width: 80%;
+        padding: 10px 20px;
+
+    }
 }
