@@ -39,25 +39,25 @@
         <nav class="nav-bar">
             <img class="logo" src="/pictures/pngegg.png" alt="Reina House Cleaning Logo">
             <ul>
-                <li><a href="#">Home</a></li>
-                <li><a href="#">Reviews</a></li>
-                <li><a href="#">Free Online Estimate</a></li>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#reviews">Reviews</a></li>
+                <li><a href="#free-quote">Free Online Quote</a></li>
                 <li><a href="#">airbnb And Vrbo</a></li>
             </ul>
         </nav>
 
     </header>
     <div class="container">
-        <Section class="main-section">
+        <Section class="main-section" id="home">
             <div>
                 <h1>Reina House Cleaning</h1>
                 <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum</p>
             </div>
 
         </Section>
-        <section class="mid-section">
+        <section class="mid-section" id="free-quote">
             <div class="main-content">
-                <div class="left">
+                <div class="left shadowed-box">
                     <div class="form-div">
                         <div class="form-title">
                             <h2>Get A Free Quote</h2>
@@ -126,31 +126,71 @@
                                     <textarea name="comment" id="comment" cols="30" rows="10"></textarea>
                                 </li>
                                 <li>
+                                    <label for="source">How Did You Find Us</label>
+                                    <select name="source" id="source">
+                                        <option value=""></option>
+                                        <option value="Google">Google</option>
+                                        <option value="Facebook">Facebook</option>
+                                        <option value="Referral">Referral</option>
+                                        <option value="Other">Other</option>
+                                    </select>
+                                </li>
+                                <li>
                                     <button class="btn" name="Submit">
                                         Submit
                                     </button>
                                 </li>
+
                             </ul>
                         </form>
 
                     </div>
 
                 </div>
-                <div class="right">
+                <div class="right shadowed-box">
+                    <h2>Cleaning Is An Exhausting Task...</h2>
+                    <p>No one wants to come home to a second jog, let us take care of the cleaning while you relax and spend your time on more important things. <br>
+                    Let us take care of the cleaning, we are the experts!
+                        </p>
                     <img src="pictures/gloves-cleaning-matgerials.jpg" alt="Gloves and cleaning materials">
-                    <h2>Some Text Goes Here</h2>
-                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum</p>
+                    <h2>Sitback And Relax</h2>
+                    <p>We will take care of your house, and after we are done, you will have the sparkling clean house you deserve! <br>
+                    You’re going to love coming back home to that fresh and pure smell of a clean home!
+                        </p>
+
                     <img src="pictures/cleaned-bathroom-.jpg" alt="Gloves and cleaning materials">
-                    <div class="reviews">
-                        <img src="" alt="review">
-                        <img src="" alt="review">
-                        <img src="" alt="review">
-                    </div>
+
                 </div>
 
             </div>
 
+        </section>
+        <section class="reviews-section" id="reviews">
+            <div>
+                <h2>What Our Clients Say About Us</h2>
+            </div>
+            <div class="reviews">
+                <div class="review shadowed-box">
+                    <blockquote>
+                        Omnifood is just awesome! I just launched a startup which leaves me with no time for cooking, so Omnifood is a life-saver. Now that I got used to it, I couldn't live without my daily meals!
+                        <cite>Alberto Duncan</cite>
+                    </blockquote>
+                </div>
+                <div class="review shadowed-box">
+                    <blockquote>
+                        Omnifood is just awesome! I just launched a startup which leaves me with no time for cooking, so Omnifood is a life-saver. Now that I got used to it, I couldn't live without my daily meals!
+                        <cite>Alberto Duncan</cite>
+                    </blockquote>
+                </div>
+                <div class="review shadowed-box">
+                    <blockquote>
+                        Omnifood is just awesome! I just launched a startup which leaves me with no time for cooking, so Omnifood is a life-saver. Now that I got used to it, I couldn't live without my daily meals!
+                        <cite>Alberto Duncan</cite>
+                    </blockquote>
+                </div>
 
+
+            </div>
         </section>
         <footer>
             <ul>
