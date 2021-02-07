@@ -100,7 +100,7 @@ li.icon{
 
 /*MAIN SECTION*/
 .main-section{
-    height: 90vh;
+    height: 80vh;
     background-image:linear-gradient(to bottom, rgba(62, 63, 70, 0.76), rgba(15, 15, 15, 0.5)), url(pictures/sparkling-clean-kitchen.jpg);
     background-repeat: no-repeat;
     background-attachment: fixed;
@@ -120,7 +120,7 @@ li.icon{
 }
 .main-section p{
 
-    font-size: 120%;
+    font-size: 200%;
     font-weight: 300;
     padding-top: 50px;
     margin-left: 200px;
@@ -288,15 +288,12 @@ footer ul{
         padding-top: 70px;
 
     }
-    .main-section h1, .main-section p{
+    /* .main-section h1, .main-section p{
         font-size: 300%;
         font-weight: 100;
-    }
-    .main-section p{
+    } */
 
-        font-size: 110%;
-        font-weight: 300;
-        line-height: 30px;
+
 
 
 }
