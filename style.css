@@ -44,11 +44,27 @@ a{
     margin-right: 10px;
 
 }
-.nav-bar ul{
+.nav-pages{
     display: flex;
     list-style: none;
 
 }
+/*************/
+/*MOBILE NAV*/
+/*************/
+.mobile-nav-icon{
+    float: right;
+    margin-top: 30px;
+    cursor: pointer;
+    display: none;
+}
+.mobile-nav-icon span{
+
+}
+
+
+
+
   /* nav contact icons */
 .top-nav ul{
 
@@ -292,8 +308,14 @@ footer ul{
         font-size: 300%;
         font-weight: 100;
     } */
-
-
+}
+@media only screen and (max-width : 768px){
+    .mobile-nav-icon{
+        display: inline-block;
+    }
+    .nav-pages{display: none;
+    }
+    .mobile-options{display: flex;}
 
 
 }
