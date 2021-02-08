@@ -320,7 +320,8 @@ footer ul{
     .top-nav{display: none}
     .mobile-nav-icon{
         display: inline-block;
-        font-size: 140%;
+        font-size: 150%;
+        margin-right: 15px;
     }
     .top-nav ul{
         display: flex;
